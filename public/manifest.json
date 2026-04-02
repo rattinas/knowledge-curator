@@ -1,0 +1,22 @@
+{
+  "name": "Knowledge Curator",
+  "short_name": "KnowCurator",
+  "description": "Dein taeglicher KI-kuratierter Wissens-Digest",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFBFC",
+  "theme_color": "#6366F1",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+name: "Knowledge Curator"
+description: "KI-kuratierter Wissens-Digest - automatisch aus YouTube, Podcasts, Papers, Blogs"
+version: "1.0.0"
+slug: "knowledge_curator"
+url: "https://github.com/bene/knowledge-curator"
+arch:
+  - aarch64
+  - amd64
+ports:
+  3000/tcp: 3000
+ports_description:
+  3000/tcp: "Web UI"
+map:
+  - addon_config:rw
+options:
+  ANTHROPIC_API_KEY: ""
+schema:
+  ANTHROPIC_API_KEY: "str?"
+webui: "http://[HOST]:[PORT:3000]"
+ingress: true
+ingress_port: 3000
+panel_icon: "mdi:book-open-page-variant"
+panel_title: "Knowledge Curator"
+startup: "application"
+boot: "auto"
